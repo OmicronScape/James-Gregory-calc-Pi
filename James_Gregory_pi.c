@@ -3,7 +3,7 @@ int main() {
     int N;
     double P = 0.0;
 
-    // Εισαγωγή και έλεγχος τιμής του N
+    // Input and validation of N
     do {
         printf("Δώσε τον αριθμό Ν(Από 1000 έως και 100.000):  ");
         scanf("%d", &N);
@@ -13,7 +13,7 @@ int main() {
         }
     } while (N < 1000 || N > 100000);
 
-    // Υπολογισμός π χρησιμοποιώντας τον τύπο
+    // Calculation of π using the formula
     for (int i = 0; i < N; i++) {
         if (i % 2 == 0) {
             P = P + 1.0 / (2 * i + 1);
@@ -22,10 +22,10 @@ int main() {
         }
     }
 
-    // Τελικός υπολογισμός του π
+    // Final calculation of π
     P = P * 4;
 
-    // Εμφάνιση του αποτελέσματος με ακρίβεια οκτώ δεκαδικών ψηφίων
+    // Display the result with eight decimal places of precision
     printf("Η τιμή του π είναι: %.8lf\n", P);
 
     return 0;
