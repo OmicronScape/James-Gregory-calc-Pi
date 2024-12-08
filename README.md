@@ -1,5 +1,5 @@
 # James-Gregory-calc-Pi
-A Python implementation of the James Gregory series for calculating π (pi). This project demonstrates the convergence of π through an infinite series and serves as an educational example of mathematical approximations in programming.
+A C implementation of the James Gregory series for calculating π (pi). This project demonstrates the convergence of π through an infinite series and serves as an educational example of mathematical approximations in programming.
 
 This repository contains a C program that calculates an approximation of π (pi) using the James Gregory series. The program allows the user to specify the number of terms in the series, providing better accuracy for larger values of NN.
 
